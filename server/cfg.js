@@ -5,6 +5,6 @@ module.exports = {
   CLIENT_ID: 'your auth0 client id',
   CLIENT_SECRET: 'your auth0 client secret',
   CALLBACK_URL: 'http://localhost:3030/auth/callback',
-  CONNECTION_STRING: 'postgres://localhost/kahoot',
+  CONNECTION_STRING: 'postgres://localhost/adrush',
   FRONTEND_URL: 'http://localhost:3000'
 }
