@@ -1,12 +1,12 @@
-# Kahoot Clone
+# Adrush
 
-Kahoot! is a game-based learning platform, used as educational technology in schools and other educational institutions. This is a basic prototype of Kahoot.
+Adrush! is a ad game-based platform.
 
 ## Getting started
 
 ### Setup Database
 - Install postgres
-- Create Database named as "kahoot"
+- Create Database named as "adrush"
 - Create tables
    - In `db` folder, you will get `table.sql` file.
    - Execute the queries to create tables
@@ -34,13 +34,12 @@ Kahoot! is a game-based learning platform, used as educational technology in sch
 ### Setup Backend and Frontend
 - Clone this repository
 ```bash
-$ git clone https://github.com/yoku2010/kahoot-clone.git
+$ git clone https://github.com/nishant-firefly/adrush
 ```
 - Configure `server/cfg.js` file according to your setup of Auth0 and database.
 
 - Start node server
 ```bash
-$ cd kahoot-clone
 $ npm install
 $ node server/index.js
 ```
