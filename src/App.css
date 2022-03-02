@@ -1,0 +1,19 @@
+.component-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(70,23,143);
+}
+
+
+a{
+  text-decoration: none;
+}
+
+@media(min-width:700px){
+  .component-container{
+    justify-content: center;
+  }
+ }
+ 
